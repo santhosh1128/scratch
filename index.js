@@ -7,7 +7,7 @@ class ScratchFetch {
         return {
             "id": "Temperature",
             "name": "Temperature",
-          "blockIconURI": "blockIconURI",
+          "blockIconURI": blockIconURI,
             "blocks": [
                         {
                             "opcode": "fetchURL",
