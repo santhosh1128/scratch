@@ -1,4 +1,4 @@
-const blockIconURI ='https://static.thenounproject.com/png/967229-200.png';
+//const blockIconURI ='https://static.thenounproject.com/png/967229-200.png';
 class ScratchFetch {
     constructor() {
     }
@@ -7,7 +7,7 @@ class ScratchFetch {
         return {
             "id": "Temperature",
             "name": "Temperature",
-            "blockIconURI": blockIconURI,
+        //    "blockIconURI": blockIconURI,
             "blocks": [
                         {
                             "opcode": "fetchURL",
