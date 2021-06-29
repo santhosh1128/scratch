@@ -41,7 +41,7 @@ class ScratchFetch {
     
     fetchURL({url}) {
         // return fetch(url).then(response => response.text())
-        return "hello"
+        return "vinith"
     }
     
     jsonExtract({name,data}) {
