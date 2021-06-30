@@ -47,7 +47,7 @@ class ScratchFetch {
         }
         else
         {
-            (url<15)?(return "cold weather"):(return "sunny weather");
+           return (url<15)?("cold weather"):("sunny weather");
         }
      //   return fetch(url).then(response => response.text())
        // return "vinith";
