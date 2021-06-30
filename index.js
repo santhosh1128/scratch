@@ -31,7 +31,8 @@ class ScratchFetch {
                                 },
                                 "data": {
                                     "type": "string",
-                                    "defaultValue": '{"temperature": 12.3}'
+                                    // "defaultValue": '{"temperature": 12.3}'
+                                    "defaultValue": '12.3'
                                 },
                             }
                         },
