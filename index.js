@@ -40,8 +40,16 @@ class ScratchFetch {
     }
     
     fetchURL({url}) {
-       debugger;
-        return fetch(url).then(response => response.text())
+       //debugger;
+        if(isNaN(url))
+        {
+          return fetch(url).then(response => response.text())  
+        }
+        else
+        {
+            (url<15)?(return "cold weather"):(return "sunny weather");
+        }
+     //   return fetch(url).then(response => response.text())
        // return "vinith";
     }
     
