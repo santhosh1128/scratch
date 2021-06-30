@@ -40,7 +40,7 @@ class ScratchFetch {
     }
     
     fetchURL({url}) {
-       //debugger;
+       debugger;
         if(isNaN(url))
         {
           return fetch(url).then(response => response.text())  
