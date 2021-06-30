@@ -40,8 +40,9 @@ class ScratchFetch {
     }
     
     fetchURL({url}) {
-        // return fetch(url).then(response => response.text())
-        return "vinith";
+       debugger;
+        return fetch(url).then(response => response.text())
+       // return "vinith";
     }
     
     jsonExtract({name,data}) {
